@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(99, 158, 186, 0.59);
+    padding: 0px;
+}
+.logo img {
+    margin-left: 10px;
+    width: 150px;
+    height: 70px; 
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 50px; 
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #080202;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #0a0de4; 
+}
+
+
+.card {
+    position: relative;
+    width: 100%;
+    background-color: var(--bg-dark);
+    color: var(--text-color);
+    
+}
+
+.card-img {
+    width: 100%;
+    height: 70.33vh; 
+    object-fit: cover;
+    
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+
+}
+.card-image-div{
+    width: 300px;
+    background-color: #D9D9D9;
+    opacity: 70%;
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-text small {
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+.horizontal-item {
+    display: flex;
+    align-items: center;
+}
+
+.small-logo {
+    width: 30px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+#centered-button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 20px; 
+    width: calc(100% - 40px); 
+    height: calc(100% - 40px); 
+    background-color: rgba(0, 109, 186, 0.58);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #5aa72e; 
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    margin-top: 50px;
+}
+
+
+.centered-content-first-h1 {
+    font-family: 'Bad Script', cursive;
+}
+.centered-content h1 {
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .col {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col {
+        flex: 0 0 auto;
+        width: 33.333333%;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1px; 
+    margin-left: -1px; 
+}
+
+.col {
+    flex: 0 0 auto;
+    width: calc(100% / 3 - 10px); 
+    margin-bottom: 20px; 
+    padding-left: 5px; 
+    padding-right: 5px; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    background-color: rgba(217, 217, 217, 0.44);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-img-center {
+    width: 70%;
+    height:70%;
+    margin: auto;
+}
+
+.card-body {
+    text-align: center; 
+}
+
+
+
+
+.row-cols-1{
+    margin: 20px;
+}
+
+
+
+/* Footer Start */
+.footer-left {
+    float: left;
+    width: 50%;
+    column-gap: 10px;
+    padding: 30px;
+}
+
+
+
+.footer-section {
+    background-color: rgba(18, 116, 163, 0.59);
+}
+
+.footer-up {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footer-up .icon img {
+    height: 40px;
+}
+
+.email .icon img {
+    width: 35px;
+    height: 30px;
+}
+.facebook .icon img {
+    height: 36px !important;
+    width: 34px;
+}
+
+.phone .icon img {
+    width: 30px;
+    height: 34px;
+}
+
+.footer-down{
+    background-color: rgba(72, 105, 129, 1);
+    padding: 10px 0;
+    text-align: center;
+
+    
+
+}
+
+.footer-section span {
+    font-family: Arial;
+}
+
+.footer-section .icon {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 10px 0px;
+}
+
+.footer-down span {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial;
+    text-align: center;
+    
+}
+.footer-down{
+    text-align: center;
+}
+.container1{
+    text-align: center;
+    padding-right: 500px;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 10px;
+}
